@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pyralis", "msvc\pyralis.vcxproj", "{EC110430-8BB5-4CD3-9F33-BA1F01826BCC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pyralis-test", "msvc\pyralis-test.vcxproj", "{67DB0E82-DD28-41A2-87FD-1CF8C35AB2C0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC110430-8BB5-4CD3-9F33-BA1F01826BCC} = {EC110430-8BB5-4CD3-9F33-BA1F01826BCC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC110430-8BB5-4CD3-9F33-BA1F01826BCC}.Debug|x64.ActiveCfg = Debug|x64
+		{EC110430-8BB5-4CD3-9F33-BA1F01826BCC}.Debug|x64.Build.0 = Debug|x64
+		{EC110430-8BB5-4CD3-9F33-BA1F01826BCC}.Release|x64.ActiveCfg = Release|x64
+		{EC110430-8BB5-4CD3-9F33-BA1F01826BCC}.Release|x64.Build.0 = Release|x64
+		{67DB0E82-DD28-41A2-87FD-1CF8C35AB2C0}.Debug|x64.ActiveCfg = Debug|x64
+		{67DB0E82-DD28-41A2-87FD-1CF8C35AB2C0}.Debug|x64.Build.0 = Debug|x64
+		{67DB0E82-DD28-41A2-87FD-1CF8C35AB2C0}.Release|x64.ActiveCfg = Release|x64
+		{67DB0E82-DD28-41A2-87FD-1CF8C35AB2C0}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
